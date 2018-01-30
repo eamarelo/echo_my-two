@@ -1,0 +1,26 @@
+{
+  "name": "echo_my-two",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eamarelo/echo_my-two.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eamarelo/echo_my-two/issues"
+  },
+  "homepage": "https://github.com/eamarelo/echo_my-two#readme",
+  "devDependencies": {
+    "eslint": "^4.16.0"
+  },
+  "dependencies": {
+    "echo-my-log": "file:../echo-my-log",
+    "echo-my-multi": "file:../echo-my-multi"
+  }
+}
